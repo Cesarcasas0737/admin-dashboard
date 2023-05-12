@@ -5,9 +5,18 @@
     font-family: 'Roboto', sans-serif;
     
 }
+body{
+    background-color: antiquewhite;
+}
+
+:root{
+    --links-margin: 40px;
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
+    margin: calc(var(--links-margin) / 2);
 }
 
 .logo{
@@ -27,8 +36,9 @@
 .links-contain{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: var(--links-margin);
+    margin-bottom: var(--links-margin);
+    margin-left: var(--links-margin);
 }
 
 .link{
@@ -45,4 +55,7 @@
 .link-icon{
     width: 50px;
     height: 50px;
+}
+.svg-image-icon{
+   
 }
