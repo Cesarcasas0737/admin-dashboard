@@ -5,15 +5,38 @@
     font-family: 'Roboto', sans-serif;
     
 }
-body{
-    background-color: antiquewhite;
-}
 
 :root{
-    --links-margin: 40px;
+    --links-padding: 40px;
+}
+
+body{
+    background-color: ivory;
+}
+
+#container-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+#header-grid{
+grid-column: 2/6;
+grid-row: 1/2;
+}
+
+#sidebar-grid{
+  grid-column: 1/1;
+  grid-row: 1/6; 
+}
+
+#content-grid{
+    grid-column: 2/6;
+    grid-row: 2/6; 
 }
 
 .sidebar{
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     margin: calc(var(--links-margin) / 2);
@@ -36,16 +59,16 @@ body{
 .links-contain{
     display: flex;
     flex-direction: column;
-    margin-top: var(--links-margin);
-    margin-bottom: var(--links-margin);
-    margin-left: var(--links-margin);
+    padding-top: var(--links-padding);
+    padding-bottom: var(--links-padding);
+    padding-left: var(--links-padding);
 }
 
 .link{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-top: var(--links-margin);
+    margin-top: var(--links-padding);
 }
 .link > p{
     align-self: center;
@@ -58,7 +81,9 @@ body{
 }
 
 .header{
-    display: grid;
-    grid-template-columns: 6;
-    grid-template-rows: 2;
+    background-color: rosybrown;
+}
+
+.content{
+    background-color: lightskyblue;
 }
