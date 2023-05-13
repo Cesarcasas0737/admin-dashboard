@@ -7,7 +7,7 @@
 }
 
 :root{
-    --links-padding: 40px;
+    --links-padding: 30px;
 }
 
 body{
@@ -16,8 +16,8 @@ body{
 
 #container-grid{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(5,20vw);
+    grid-template-rows: repeat(5,20vh);
 }
 
 #header-grid{
@@ -40,12 +40,13 @@ grid-row: 1/2;
     display: flex;
     flex-direction: column;
     margin: calc(var(--links-margin) / 2);
+    
 }
 
 .logo{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    padding: var(--links-padding);
 }
 .emblem{
     width: 100px;
@@ -80,10 +81,40 @@ grid-row: 1/2;
     height: 50px;
 }
 
-.header{
-    background-color: rosybrown;
+#header-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
 }
 
+#search-container-grid{
+    
+}
+
+#profile-container-grid{
+
+}
+
+#welcome-user-grid{
+
+}
+
+#btns-container-grid{
+
+}
+
+.header{
+    background-color: rosybrown;
+    
+}
+
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+
+}
 .content{
     background-color: lightskyblue;
 }
+
