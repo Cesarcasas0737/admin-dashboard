@@ -115,7 +115,7 @@ grid-row: 1/2;
 
 .header{
     background-color: #f5f5f4;
-    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .header .icon{
     width: 40px;
@@ -135,6 +135,10 @@ grid-row: 1/2;
 .search-bar{
     width: 80%;
     height: 20%;
+
+    display: flex;
+    border-radius: 20px;
+    overflow:hidden;
 }
 
 .profile-container{
