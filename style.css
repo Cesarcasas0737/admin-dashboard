@@ -107,7 +107,7 @@ grid-row: 1/2;
 }
 
 #btns-container-grid{
-    grid-column: 6/9;
+    grid-column: 7/9;
     grid-row: 2/3;
 }
 
@@ -117,10 +117,12 @@ grid-row: 1/2;
     background-color: #f5f5f4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 .header .icon{
     width: 40px;
     height: 40px;
 }
+
 .search-container{
     display: flex;
     flex-direction: row;
@@ -129,9 +131,11 @@ grid-row: 1/2;
     padding-left: var(--greater-padding);
 
 }
+
 .search-container .icon{
     padding-right: 30px;
 }
+
 .search-bar{
     width: 80%;
     height: 20%;
@@ -151,9 +155,11 @@ grid-row: 1/2;
 .profile-container .icon{
     padding-right: var(--light-padding);
 }
+
 .profile-container p{
     padding-left: var(--light-padding);
 }
+
 .profile{
     border-radius: 50%;
     width: 80px;
@@ -186,7 +192,7 @@ grid-row: 1/2;
 .btns-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 20px;
     align-items: center;
     /* outline: 2px solid red; */
 }
@@ -195,3 +201,10 @@ grid-row: 1/2;
     background-color: #e7e5e4;
 }
 
+button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
