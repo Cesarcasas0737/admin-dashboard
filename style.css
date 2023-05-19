@@ -237,12 +237,12 @@ outline: 2px solid red;
     display: flex;
     flex-direction: row;
     outline: 2px solid red;
+    border-radius: var(--standar-border-radius);
 }
 .card-color{
     background-color: #4f4ade;
     height: 100%;
     width: 5%;
-    border-radius: var(--standar-border-radius);
 }
 .card-content{
     display: flex;
@@ -251,7 +251,6 @@ outline: 2px solid red;
     align-items: center;
     padding: var(--light-padding);
     gap: 30px;
-    border-radius: var(--standar-border-radius);
     outline: 2px solid purple;
 }
 
