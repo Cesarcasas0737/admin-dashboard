@@ -349,6 +349,7 @@ h3{
 button{
     padding: 5px 10px;
     border-radius: 20px;
+    width: 150px;
     background-color: var(--green-dark);
     color: white;
     border: none;
