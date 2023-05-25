@@ -58,6 +58,7 @@ grid-row: 1/2;
 .logo{
     display: flex;
     flex-direction: row;
+    gap: 10px;
     padding: var(--links-padding);
 }
 .emblem{
