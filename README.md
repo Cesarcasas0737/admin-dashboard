@@ -1,2 +1,4 @@
 # admin-dashboard
-a dashboard that various types of content in it
+A dashboard that has various types of content in it
+
+![Admin-Dashboard](./images/dashboard-screenshot.png)

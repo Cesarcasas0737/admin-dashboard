@@ -19,7 +19,7 @@
 }
 
 body{
-    background-color: ivory;
+    background-color: var(--grey-light);
 }
 
 h4{
@@ -208,6 +208,7 @@ grid-row: 1/2;
     justify-content: flex-end;
     gap: 30px;
     align-items: center;
+    padding-right: 15px;
     
 }
 
